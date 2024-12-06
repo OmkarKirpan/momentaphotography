@@ -1,41 +1,41 @@
-import { Check } from 'lucide-react'
+import { Check } from "lucide-react";
 
 const services = [
   {
-    name: 'Essential Package',
-    price: '$1,999',
+    name: "Essential Package",
+    price: "$1,999",
     features: [
-      '6 hours of coverage',
-      'One photographer',
-      'Online gallery',
-      '100 edited digital images',
+      "6 hours of coverage",
+      "One photographer",
+      "Online gallery",
+      "100 edited digital images",
     ],
   },
   {
-    name: 'Premium Package',
-    price: '$2,999',
+    name: "Premium Package",
+    price: "$2,999",
     features: [
-      '8 hours of coverage',
-      'Two photographers',
-      'Online gallery',
-      '200 edited digital images',
-      'Engagement photo session',
+      "8 hours of coverage",
+      "Two photographers",
+      "Online gallery",
+      "200 edited digital images",
+      "Engagement photo session",
     ],
   },
   {
-    name: 'Luxury Package',
-    price: '$3,999',
+    name: "Luxury Package",
+    price: "$3,999",
     features: [
-      'Full day coverage',
-      'Two photographers',
-      'Online gallery',
-      'All edited digital images',
-      'Engagement photo session',
-      'Wedding album',
-      'Canvas print',
+      "Full day coverage",
+      "Two photographers",
+      "Online gallery",
+      "All edited digital images",
+      "Engagement photo session",
+      "Wedding album",
+      "Canvas print",
     ],
   },
-]
+];
 
 export default function Services() {
   return (
@@ -64,10 +64,9 @@ export default function Services() {
           <li>Second photographer: $500</li>
           <li>Engagement photo session: $400</li>
           <li>Wedding album (30 pages): $800</li>
-          <li>Canvas print (24" x 36"): $300</li>
+          <li>Canvas print (24&quot; x 36&quot;): $300</li>
         </ul>
       </div>
     </div>
-  )
+  );
 }
-
